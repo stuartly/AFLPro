@@ -1,0 +1,24 @@
+sftp username@ip
+cd string
+ls
+dir
+mkdir string
+rmdir string
+chgrp groupname path
+chown username path
+chmmod 644 path
+In oldname newname
+rm path
+rename oldname newname
+exit
+bye
+quit
+lcd path
+lls
+lmkdir path
+lpwd
+put ldir rdir
+put ldir
+get rdir ldir
+get *
+get *.rpm

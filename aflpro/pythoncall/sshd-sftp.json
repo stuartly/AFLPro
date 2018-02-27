@@ -1,0 +1,52 @@
+{
+	"ftp":[
+	    {
+	        "id"     : 1,
+	        "init" 	: 1,
+		    "in" 	: [],
+		    "out" 	: [2],
+	        "format":[
+		    	{"type":"static", "defaultValue":"USER","constraint":5,"fuzzable":0},
+		    	{"type":"static", "defaultValue":" ","constraint":5,"fuzzable":0},
+		    	{"type":"string", "defaultValue":"username","constraint":5,"fuzzable":1},
+		    	{"type":"static", "defaultValue":"\r\n","constraint":5,"fuzzable":0}
+		    ]
+	    },
+	    {
+		    "id" 	: 2,
+		    "init" 	: 0,
+		    "in" 	: [1],
+		    "out" 	: [3,4],
+		    "format":[
+		    	{"type":"static", "defaultValue":"PASS","constraint":5,"fuzzable":0},
+		    	{"type":"static", "defaultValue":" ","constraint":5,"fuzzable":0},
+		    	{"type":"string", "defaultValue":"password","constraint":5,"fuzzable":1},
+		    	{"type":"static", "defaultValue":"\r\n","constraint":5,"fuzzable":0}   
+		    ]
+		},
+		{
+		    "id" 	: 3,
+		    "init" 	: 0,
+		    "in" 	: [2],
+		    "out" 	: [],
+		    "format":[
+		    	{"type":"static", "defaultValue":"MKD","constraint":5,"fuzzable":0},
+		    	{"type":"static", "defaultValue":" ","constraint":5,"fuzzable":0},
+		    	{"type":"string", "defaultValue":"dictionary","constraint":5,"fuzzable":1},
+		    	{"type":"static", "defaultValue":"\r\n","constraint":5,"fuzzable":0}   
+		    ]
+		},
+		{
+		    "id" 	: 4,
+		    "init" 	: 0,
+		    "in" 	: [2],
+		    "out" 	: [],
+		    "format":[
+		    	{"type":"static", "defaultValue":"PUT","constraint":5,"fuzzable":0},
+		    	{"type":"static", "defaultValue":" ","constraint":5,"fuzzable":0},
+		    	{"type":"string", "defaultValue":"file","constraint":5,"fuzzable":1},
+		    	{"type":"static", "defaultValue":"\r\n","constraint":5,"fuzzable":0}   
+		    ]
+		}
+	]
+}
