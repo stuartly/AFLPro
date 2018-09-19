@@ -1,5 +1,5 @@
 
-# Model guided Protocol Implementation Fuzzing #
+# Specification based Stateful Protocol Greybox Fuzzing #
  
 
 ### How do I get set up? ###
