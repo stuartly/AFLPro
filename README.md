@@ -2,7 +2,7 @@
 # Specification based Stateful Protocol Greybox Fuzzing #
  
 
-### How do I get set up? ###
+### Install ###
 * Prerequistie
 >>
      sudo apt-get install libjson-c-dev libjson0-dev libgtop2-dev
