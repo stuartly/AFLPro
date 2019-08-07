@@ -1,5 +1,5 @@
 
-# Specification based Stateful Protocol Greybox Fuzzing #
+# Protocol Greybox Fuzzing #
  
 
 ### Install ###
