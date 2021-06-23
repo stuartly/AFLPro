@@ -1,7 +1,3 @@
-
-# Protocol State-aware GreyBox Fuzzing #
- 
-
 ### Install ###
 * Prerequistie
 >>
